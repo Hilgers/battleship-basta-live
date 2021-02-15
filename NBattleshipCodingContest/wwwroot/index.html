@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Battleship Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Battle</h1>
+
+    <div id="player-container">
+        <div>
+            <h2>Player 1</h2>
+            <select id="player1Select"></select>
+            <table id="p1table" class="board" hidden></table>
+        </div>
+        <div>
+            <h2>Player 2</h2>
+            <select id="player2Select"></select>
+            <table id="p2table" class="board" hidden></table>
+        </div>
+    </div>
+
+    <button id="first" hidden>&lt;&lt;&lt;</button>
+    <button id="prev" hidden>&lt;</button>
+    <button id="next" hidden>&gt;</button>
+    <button id="last" hidden>&gt;&gt;&gt;</button>
+    <button id="start" disabled>Start game</button>
+
+    <h2 id="winner"></h2>
+</body>
+</html>
